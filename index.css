@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(resources/Roboto-Bold.ttf);
+}
+
 :root {
     --default-text-size: 17.5pt;
     --default-font: 'Serif', 'Muli';
+    --default-heading-font: 'Roboto';
     --default-border-color: rgb(183, 183, 183, 0.5);
     --default-border: 5px solid var(--default-border-color);
     --default-amplify-border: 5px solid white;
@@ -55,6 +61,7 @@ body {
 
 .nav-btn, .nav-btn-icon {
     display: flex;
+    font-family: var(--default-heading-font);
     justify-content: center;
     align-items: center;
     color: white;
@@ -85,6 +92,7 @@ body {
 
 .heading {
     color: white;
+    font-family: var(--default-heading-font);
     font-size: var(--default-heading-text-size);
     text-align: center;
     font-weight: bold;
@@ -105,6 +113,7 @@ body {
 
 .article {
     padding: 1vw;
+    max-width: 25%;
     border: var(--default-border);
     border-radius: 36px;
     background-color: white;

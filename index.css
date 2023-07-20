@@ -1,18 +1,31 @@
 :root {
     --default-text-size: 17.5pt;
     --default-font: 'Serif', 'Muli';
+    --default-border-color: rgb(183, 183, 183, 0.5);
+    --default-border: 5px solid var(--default-border-color);
+    --default-amplify-border: 5px solid white;
+    --default-heading-text-size: 30pt;
 }
 
 html, body {
     display: block;
     padding: 0;
     margin: 0;
-    overflow: hidden;
 }
 
 * {
-    font: var(--default-font);
+    text-decoration: none;
+    font-family: var(--default-font);
     font-size: var(--default-text-size);
+}
+
+p {
+    white-space: pre-line;
+}
+
+body {
+    background-image: url(images/beach.png);
+    background-size: cover;
 }
 
 .navbar {
@@ -45,6 +58,7 @@ html, body {
     align-items: center;
     color: white;
     text-align: center;
+    font-weight: bold;
     border-radius: 36px;
     padding: 0.5vw 1vw;
 }
@@ -54,20 +68,46 @@ html, body {
 }
 
 .nav-btn-icon img {
-    filter: invert(100%);;
+    filter: invert(100%);
 }
 
 .nav-btn:hover, .nav-btn-icon:hover {
-    background-color: rgb(183, 183, 183, 0.5);
+    background-color: var(--default-border-color);
 }
 
-a {
-    text-decoration: none;
+.wrapper {
+    padding: 2vw;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
-.background {
-    z-index: -1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.heading {
+    color: white;
+    font-size: var(--default-heading-text-size);
+    text-align: center;
+    font-weight: bold;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article {
+    padding: 1vw;
+    border: var(--default-border);
+    border-radius: 36px;
+    background-color: white;
+}
+
+.avatar {
+    border: var(--default-amplify-border);
+    border-radius: 360px;
 }

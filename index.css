@@ -119,13 +119,20 @@ body {
     background-color: white;
 }
 
+.article-wide {
+    padding: 1vw;
+    border: var(--default-border);
+    border-radius: 36px;
+    background-color: white;
+}
+
 .avatar {
     border: var(--default-amplify-border);
     border-radius: 360px;
     height: 350px;
 }
 
-.document {
+.document, .blue {
     border-radius: 36px;
     color: rgb(0, 76, 255);
     padding: 1vw;

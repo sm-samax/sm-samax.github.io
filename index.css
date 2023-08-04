@@ -5,6 +5,9 @@
 
 :root {
     --default-text-size: 17.5pt;
+    --nav-icon-size: 2.5vw;
+    --icon-size: 96px;
+    --avatar-size: 350px;
     --default-font: 'Georgia';
     --default-heading-font: 'Roboto';
     --default-border-color: rgb(183, 183, 183, 0.5);
@@ -13,6 +16,15 @@
     --default-heading-text-size: 30pt;
     --baby-blue: rgb(0, 76, 255);
 }
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --nav-icon-size: 36px;
+        --icon-size: 64px;
+        --avatar-size: 300px;
+        --default-text-size: 13pt;
+    }
+} 
 
 html, body {
     display: block;
@@ -38,6 +50,7 @@ body {
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     align-self: center;
     background-color: transparent;
     justify-content: space-between;
@@ -46,18 +59,20 @@ body {
 
 .navbar > .left {
     display: flex;
+    flex-wrap: wrap;
     align-self: left;
     gap: 2.5vw;
 }
 .navbar > .right {
     display: flex;
+    flex-wrap: wrap;
     align-self: right;
     gap: 1vw;
 }
 
 .nav-icon {
-    width: 2.5vw;
-    height: 2.5vw;
+    width: var(--nav-icon-size);
+    height:var(--nav-icon-size);
 }
 
 .nav-btn, .nav-btn-icon {
@@ -110,7 +125,7 @@ body {
 .avatar {
     border: var(--default-amplify-border);
     border-radius: 360px;
-    height: 350px;
+    height: var(--avatar-size);
 }
 
 .center {
@@ -121,7 +136,9 @@ body {
 
 .row, .row-apart {
     display: flex;
+    flex-wrap: wrap;
     align-items: left;
+    gap: 3vw;
 }
 
 .row-apart {
@@ -157,6 +174,6 @@ body {
 }
 
 .skill-pane > img {
-    width: 96px;
-    height: 96px;
+    width: var(--icon-size);
+    height: var(--icon-size);
 }

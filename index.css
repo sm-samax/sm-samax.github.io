@@ -11,6 +11,7 @@
     --default-border: 5px solid var(--default-border-color);
     --default-amplify-border: 5px solid white;
     --default-heading-text-size: 30pt;
+    --baby-blue: rgb(0, 76, 255);
 }
 
 html, body {
@@ -118,14 +119,18 @@ body {
     padding-bottom: 3vw;
 }
 
-.row {
+.row, .row-apart {
     display: flex;
     align-items: left;
 }
 
+.row-apart {
+    justify-content: space-around;
+}
+
 .document {
     border-radius: 36px;
-    color: rgb(0, 76, 255);
+    color: var(--baby-blue);
     padding: 1vw;
     display: flex;
     align-items: center;
@@ -135,4 +140,23 @@ body {
 
 .document:hover {
     background-color: var(--default-border-color);
+}
+
+.blue {
+    color: var(--baby-blue);
+}
+
+.skill-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+    padding: 1vw;
+    background-color: var(--default-border-color);
+}
+
+.skill-pane > img {
+    width: 96px;
+    height: 96px;
 }

@@ -8,6 +8,7 @@
     --nav-icon-size: 2.5vw;
     --icon-size: 96px;
     --avatar-size: 350px;
+    --paragraph-padding: 2vw 5vw;
     --default-font: 'Georgia';
     --default-heading-font: 'Roboto';
     --default-border-color: rgb(183, 183, 183, 0.5);
@@ -15,16 +16,26 @@
     --default-amplify-border: 5px solid white;
     --default-heading-text-size: 30pt;
     --baby-blue: rgb(0, 76, 255);
+    --small-padding: 1vw;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     :root {
-        --nav-icon-size: 36px;
+        --nav-icon-size: calc(5% + 20px);
         --icon-size: 64px;
         --avatar-size: 300px;
-        --default-text-size: 13pt;
+        --default-text-size: 15pt;
+        --paragraph-padding: 10px 20px;
+        --small-padding: 10px;
     }
-} 
+}
+
+@media screen and (max-width: 600px) {
+    :root {
+        --default-text-size: 13pt;
+        --small-padding: 8px;
+    }
+}
 
 html, body {
     display: block;
@@ -67,7 +78,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-self: right;
-    gap: 1vw;
+    gap: var(--small-padding);
 }
 
 .nav-icon {
@@ -117,7 +128,7 @@ body {
 }
 
 .article {
-    padding: 2vw 5vw;
+    padding: var(--paragraph-padding);
     background-color: white;
     border-radius: 36px;
 }
@@ -163,13 +174,18 @@ body {
     color: var(--baby-blue);
 }
 
+.small-icon {
+    width: var(--nav-icon-size);
+    height: var(--nav-icon-size);
+}
+
 .skill-pane {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 36px;
-    padding: 1vw;
+    padding: var(--small-padding);
     background-color: var(--default-border-color);
 }
 

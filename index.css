@@ -103,22 +103,8 @@ body {
     font-weight: bold;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 3vw;
-}
-
-.article, .article-spec {
-    padding: 1vw;
+.article {
+    padding: 2vw 5vw;
     background-color: white;
     border-radius: 36px;
 }
@@ -127,6 +113,12 @@ body {
     border: var(--default-amplify-border);
     border-radius: 360px;
     height: 350px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
 }
 
 .document, .blue {

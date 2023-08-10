@@ -193,3 +193,7 @@ body {
     width: var(--icon-size);
     height: var(--icon-size);
 }
+
+.underline:hover {
+    text-decoration: underline;
+}

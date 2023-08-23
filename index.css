@@ -34,6 +34,7 @@
     :root {
         --default-text-size: 13pt;
         --small-padding: 8px;
+        --icon-size: 96px;
     }
 }
 
@@ -189,7 +190,7 @@ body {
     background-color: var(--default-border-color);
 }
 
-.skill-pane > img {
+.icon {
     width: var(--icon-size);
     height: var(--icon-size);
 }

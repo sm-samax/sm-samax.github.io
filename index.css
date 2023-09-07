@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 1000px) {
     :root {
-        --nav-icon-size: calc(5% + 20px);
+        --nav-icon-size: 32px;
         --icon-size: 64px;
         --avatar-size: 300px;
         --default-text-size: 15pt;
@@ -56,8 +56,14 @@ p {
 }
 
 body {
-    background: rgb(15,32,88);
-    background: radial-gradient(circle, rgba(15,32,88,1) 11%, rgba(9,39,255,1) 72%, rgba(15,32,88,1) 95%); 
+    /* background: rgb(15,32,88);
+    background: radial-gradient(circle, rgba(15,32,88,1) 11%, rgba(9,39,255,1) 72%, rgba(15,32,88,1) 95%);  */
+    background: url(images/shoreline.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* overflow: hidden; */
 }
 
 .navbar {

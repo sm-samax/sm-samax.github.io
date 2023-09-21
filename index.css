@@ -14,6 +14,7 @@
     --default-color: #ff9e01;
     --bright-color: #e6ff01;
     --default-color-to-svg: invert(56%) sepia(97%) saturate(1166%) hue-rotate(360deg) brightness(104%) contrast(104%);
+    --bright-color-to-svg: invert(94%) sepia(64%) saturate(2254%) hue-rotate(352deg) brightness(111%) contrast(104%);
     --default-font:'Roboto', 'Arial', 'Verdana';
     --default-border-color: rgb(183, 183, 183, 0.5);
     --default-background-color: rgba(0, 0, 0, 0.8);
@@ -207,4 +208,21 @@ img.avatar {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+.document {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.action-text {
+    font-size: var(--default-action-text-size);
+}
+
+.document img {
+    width: 40px;
+    height: 40px;
 }

@@ -6,6 +6,7 @@
 :root {
     --default-text-size: 17.5pt;
     --default-header-text-size: 24pt;
+    --default-action-text-size: 32pt;
     --nav-icon-size: 2.5vw;
     --skill-icon-size: 96px;
     --avatar-size: 320px;
@@ -24,15 +25,19 @@
 @media screen and (max-width: 1000px) {
     :root {
         --nav-icon-size: 32px;
-        --default-text-size: 15pt;
-        --small-padding: 10px;
+        --default-text-size: 16pt;
+        --avatar-size: 270px;
+        --default-gap-size: 24px;
+        --small-padding: 12px;
     }
 }
 
 @media screen and (max-width: 600px) {
     :root {
-        --default-text-size: 13pt;
-        --small-padding: 8px;
+        --default-text-size: 14pt;
+        --avatar-size: 200px;
+        --small-padding: 9px;
+        --default-gap-size: 16px;
     }
 }
 
@@ -117,8 +122,8 @@ p {
 }
 
 .container {
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: calc(3 * var(--small-padding));
+    padding-bottom: calc(3 * var(--small-padding));
 }
 
 .circle {
@@ -159,12 +164,12 @@ p {
 .action-header {
     color: var(--bright-color);
     letter-spacing: 1px;
-    font-size: 32pt;
+    font-size: var(--default-action-text-size);
 }
 
 .action-btn {
     padding: 12px 36px;
-    font-size: 32pt;
+    font-size: var(--default-action-text-size);
     color: var(--default-footer-color);
     background-color: var(--bright-color);
 }

@@ -1,15 +1,21 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(resources/Roboto-Bold.ttf);
+    src: url(resources/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url(resources/Roboto-Thin.ttf);
 }
 
 :root {
     --default-text-size: 17.5pt;
+    --thin-text-size: 14pt;
     --default-header-text-size: 24pt;
     --default-action-text-size: 32pt;
     --nav-icon-size: 2.5vw;
     --skill-icon-size: 96px;
-    --avatar-size: 320px;
+    --avatar-size: 300px;
     --default-gap-size: 2vw;
     --border-width: 0.5vw;
     --default-color: white;
@@ -28,7 +34,8 @@
     :root {
         --nav-icon-size: 32px;
         --default-text-size: 16pt;
-        --avatar-size: 280px;
+        --thin-text-size: 12pt;
+        --avatar-size: 270px;
         --default-gap-size: 24px;
         --small-padding: 12px;
         --article-padding: 32px;
@@ -212,6 +219,11 @@ img.avatar {
     right: 0;
 }
 
+.thin {
+    font-size: var(--thin-text-size);
+    font-family: 'Roboto Thin', 'Arial', 'Verdana';
+}
+
 .document {
     display: flex;
     justify-content: center;
@@ -234,7 +246,7 @@ img.avatar {
     color: var(--bright-color);
 }
 
-.bright:hover {
+.bright:hover, .underline {
     text-decoration: underline;
 }
 

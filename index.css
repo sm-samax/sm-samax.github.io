@@ -11,6 +11,7 @@
     --skill-icon-size: 96px;
     --avatar-size: 320px;
     --default-gap-size: 2vw;
+    --border-width: 0.5vw;
     --default-color: white;
     --bright-color: #e6ff01;
     --default-color-to-svg: invert();
@@ -19,30 +20,33 @@
     --default-border-color: rgb(183, 183, 183, 0.5);
     --default-background-color: rgba(0, 0, 0, 0.8);
     --default-footer-color: rgb(31, 31, 31);
-    --default-amplify-border: 5px solid white;
     --small-padding: 1vw;
+    --article-padding: 4vw;
 }
 
 @media screen and (max-width: 1000px) {
     :root {
         --nav-icon-size: 32px;
         --default-text-size: 16pt;
-        --avatar-size: 270px;
+        --avatar-size: 280px;
         --default-gap-size: 24px;
         --small-padding: 12px;
+        --article-padding: 32px;
+        --border-width: 6px;
     }
 }
 
 @media screen and (max-width: 600px) {
     :root {
         --default-text-size: 14pt;
-        --avatar-size: 200px;
+        --avatar-size: 240px;
         --small-padding: 9px;
         --default-gap-size: 16px;
+        --article-padding: 28px;
     }
 }
 
-html, body {
+html, body, p {
     display: block;
     padding: 0;
     margin: 0;
@@ -64,6 +68,8 @@ body {
 }
 
 h1, h2, h3 {
+    margin-top: var(--small-padding);
+    margin-bottom: var(--small-padding);
     font-size: var(--default-header-text-size);
 }
 
@@ -177,8 +183,8 @@ h1, h2, h3 {
 img.avatar {
     width: var(--avatar-size);
     height: var(--avatar-size);
-    border: var(--small-padding) solid var(--default-color);
-    box-shadow: 0 0 0 var(--small-padding) var(--default-footer-color);
+    border: var(--border-width) solid var(--bright-color);
+    box-shadow: 0 0 0 var(--border-width) var(--default-footer-color);
 }
 
 .skill {
@@ -193,8 +199,8 @@ img.avatar {
 }
 
 .article {
-    padding: 2vw 4vw;
-    width: calc(100% - 8vw);
+    padding: var(--article-padding);
+    width: calc(100% - 2 * var(--article-padding));
     background-color: var(--default-footer-color);
 }
 

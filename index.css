@@ -13,6 +13,7 @@
     --thin-text-size: 14pt;
     --default-header-text-size: 24pt;
     --default-action-text-size: 32pt;
+    --default-mail-form-size: 600px;
     --nav-icon-size: 2.5vw;
     --skill-icon-size: 96px;
     --avatar-size: 300px;
@@ -28,6 +29,7 @@
     --default-footer-color: rgb(31, 31, 31);
     --small-padding: 1vw;
     --article-padding: 4vw;
+    --small-action-btn-size: 12vw;
 }
 
 @media screen and (max-width: 1000px) {
@@ -40,6 +42,8 @@
         --small-padding: 12px;
         --article-padding: 32px;
         --border-width: 6px;
+        --default-mail-form-size: 480px;
+        --small-action-btn-size: 120px;
     }
 }
 
@@ -50,6 +54,8 @@
         --small-padding: 9px;
         --default-gap-size: 16px;
         --article-padding: 28px;
+        --default-mail-form-size: 360px;
+        --small-action-btn-size: 100px;
     }
 }
 
@@ -257,4 +263,38 @@ p {
 
 li {
     padding: var(--small-padding);
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+.small-border {
+    border: 2px solid var(--default-color);
+}
+
+.mail-form {
+    max-width: var(--default-mail-form-size);
+}
+
+.mail-form input:focus, .mail-form textarea:focus {
+    border-color: var(--bright-color);
+    outline: none;
+}
+
+.padded {
+    padding: var(--small-padding);
+}
+
+.small-action-btn {
+    cursor: pointer;
+    border: none;
+    background-color: var(--bright-color);
+    color: var(--default-footer-color);
+    width: var(--small-action-btn-size);
+    padding: 1vw 2vw;
+}
+
+.small-action-btn:hover {
+    background-color: var(--default-color);
 }

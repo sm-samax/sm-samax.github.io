@@ -19,13 +19,28 @@
     <title>Samuel Meszaros's official page</title>
 </head>
 <body>
+    <div id="hamburger-menu">
+        <img id="hb-close" src="images/close.svg" alt="hamburger" class="hb-menu-icon pointer">
+        <div class="column align-evenly h-70">
+            <a href="#home" class="hb-menu-btn underline">Home</a>
+            <a href="#work" class="hb-menu-btn underline">Work</a>
+            <a href="#about" class="hb-menu-btn underline">About</a>
+            <a href="#contact" class="hb-menu-btn underline">Contact</a></div>
+            <div class="row">
+                <a href="https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/" target="_blank"><img src="images/linkedin.svg"  class="hb-menu-icon" alt="linkedin"></a>
+                <a href="https://github.com/sm-samax" target="_blank"><img src="images/github.svg" class="hb-menu-icon" alt="github"></a>
+                <a href="https://twitter.com/sm_samax" target="_blank"><img src="images/twitter.svg" class="hb-menu-icon" alt="twitter, x"></a>
+            </div>
+        </div>
+    </div>
     <nav class="navbar">
-        <div class="left">
+        <div class="mobile-hidden left">
             <a href="#home" class="nav-btn">Home</a>
             <a href="#work" class="nav-btn">Work</a>
             <a href="#about" class="nav-btn">About</a>
             <a href="#contact" class="nav-btn">Contact</a></div>
             <div class="right">
+                <div id="hb" class="mobile-shown hb-menu-icon pointer"><img src="images/hamburger.svg" alt="hamburger"></div>
                 <a href="https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/" class="nav-btn-icon" target="_blank"><img src="images/linkedin.svg"  class="nav-icon" alt="linkedin"></a>
                 <a href="https://github.com/sm-samax" class="nav-btn-icon" target="_blank"><img src="images/github.svg" class="nav-icon" alt="github"></a>
                 <a href="https://twitter.com/sm_samax" class="nav-btn-icon" target="_blank"><img src="images/twitter.svg" class="nav-icon" alt="twitter, x"></a>
@@ -50,7 +65,7 @@
                             <ul>
                                 <li>2018-2022 - Computer service freelancer</li>
                                 <li>2022-2023 - JUSOFT Hungary Ltd. as Java Backend developer</li>
-                                <li>2023-present - Research Lab Novica Bjelica as Full-stack developer</li>
+                                <li>2023-present - Faculty of Sciences, Novi Sad as Java Backend developer</li>
                             </ul>
                             <div data-iframe-width="250" data-iframe-height="270" data-share-badge-id="76e96474-18f8-4716-a3c1-904c062f6d8e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         </div>
@@ -95,7 +110,7 @@
             <section id="contact">
                 <div class="article">
                     <h1>Contact</h1>
-                    <p>I am readily accessible through both my <a href="mailto:meszaros.samuel.official@gmail.com" target="_blank" class="bright">email</a> and on platforms like <a href="https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/" target="_blank" class="bright">LinkedIn</a> and <a href="https://join.skype.com/invite/DncTedT7z9y1" target="_blank" class="bright">Skype</a>. Feel free to reach out to me at any time through these sites.</p>
+                    <p>Most of the time I am accessible through both my <a href="mailto:meszaros.samuel.official@gmail.com" target="_blank" class="bright">email</a> and on platforms like <a href="https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/" target="_blank" class="bright">LinkedIn</a> and <a href="https://join.skype.com/invite/DncTedT7z9y1" target="_blank" class="bright">Skype</a>. Feel free to reach out to me through these sites.</p>
                 </div>
             </section>
         </div>
@@ -118,5 +133,6 @@
             </div>
         </div>
     </div>
+    <script async type="text/javascript" src="index.js"></script>
 </body>
 </html>

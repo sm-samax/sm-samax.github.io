@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 1000px) {
     :root {
-        --nav-icon-size: 32px;
+        --nav-icon-size: 40px;
         --default-text-size: 16pt;
         --thin-text-size: 12pt;
         --avatar-size: 270px;
@@ -110,7 +110,7 @@ h1, h2, h3 {
     gap: var(--small-padding);
 }
 
-.nav-icon {
+.nav-icon, .hb-menu-icon {
     width: var(--nav-icon-size);
     height:var(--nav-icon-size);
 }
@@ -126,7 +126,7 @@ h1, h2, h3 {
     padding: 0.5vw 1vw;
 }
 
-.nav-btn-icon {
+.nav-btn-icon, .hb-menu-icon {
     padding: 0.5vw 0.5vw;
 }
 
@@ -299,4 +299,56 @@ li {
 
 .small-action-btn:hover {
     background-color: var(--default-color);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mobile-shown {
+    visibility:hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile-hidden {
+        position: absolute;
+        visibility:hidden;
+        display:none;
+    }
+
+    .mobile-shown {
+        visibility: visible;
+    }
+}
+
+#hamburger-menu{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--default-footer-color);
+    gap: var(--default-gap-size);
+}
+
+.hb-menu-btn, .hb-menu-icon {
+    display: flex;
+    justify-content: center;
+    color: var(--bright-color);
+    text-align: center;
+    font-size: var(--default-action-text-size);
+    font-weight: bold;
+}
+
+.hb-menu-icon {
+    filter: var(--bright-color-to-svg);
+    align-self: flex-start;
+}
+
+.h-70 {
+    height: 70%;
 }

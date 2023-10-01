@@ -13,4 +13,3 @@ const menu_buttons = document.getElementsByClassName('hb-menu-btn');
 for(var i = 0; i < menu_buttons.length; i++) {
     menu_buttons.item(i).addEventListener('click', hide);
 }
-

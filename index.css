@@ -74,12 +74,14 @@ html, body, p {
     color: var(--default-color);
 }
 
-body {
-    background: url(images/office.jpg) no-repeat center center fixed;
+#home {
+    background: url(images/office.jpg) no-repeat center center local;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-top: calc(3 * var(--small-padding));
+    padding-bottom: calc(3 * var(--small-padding));
 }
 
 h1, h2, h3 {
@@ -139,8 +141,7 @@ h1, h2, h3 {
 }
 
 .container {
-    padding-top: calc(3 * var(--small-padding));
-    padding-bottom: calc(3 * var(--small-padding));
+    padding-bottom: var(--default-gap-size);
 }
 
 .circle {

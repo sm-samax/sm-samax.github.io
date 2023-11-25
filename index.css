@@ -147,7 +147,7 @@ h1, h2, h3 {
     border-radius: 360px;
 }
 
-.round {
+.round, .semiround {
     border-radius: 12px;
 }
 
@@ -254,7 +254,7 @@ img.avatar {
     color: var(--bright-color);
 }
 
-.bright:hover, .underline {
+.bright, .underline {
     text-decoration: underline;
 }
 
@@ -318,6 +318,10 @@ li {
 
     .mobile-shown {
         visibility: visible;
+    }
+
+    .semiround {
+        border-radius: 0px;
     }
 }
 

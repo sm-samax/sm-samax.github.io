@@ -216,6 +216,7 @@ img.avatar {
 
 .article {
     padding: var(--article-padding);
+    padding-top: calc(var(--article-padding) / 2);
     width: calc(100% - 2 * var(--article-padding));
     background-color: var(--default-footer-color);
 }

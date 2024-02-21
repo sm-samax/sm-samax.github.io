@@ -203,9 +203,24 @@ img.avatar {
     box-shadow: 0 0 0 var(--border-width) var(--default-footer-color);
 }
 
-.skill {
+.skill, .contact-btn {
     padding: var(--small-padding);
     border: 3px solid var(--default-color);
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-btn:hover {
+    background-color: var(--default-border-color);
+}
+
+.contact-btn img {
+    width: 60px;
+    height: 60px;
 }
 
 .skill-icon {    
@@ -358,4 +373,15 @@ li {
 
 .h-70 {
     height: 70%;
+}
+
+.topgap {
+    padding-bottom: 30px;
+}
+
+.arrow::after {
+    vertical-align: middle;
+    padding-left: 20px;
+    filter: invert();
+    content: url(images/arrow.svg);
 }

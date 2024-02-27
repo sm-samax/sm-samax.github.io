@@ -62,7 +62,7 @@ html, body, p {
 }
 
 #home {
-    background: url(images/office.jpg) no-repeat center center local;
+    background: url(images/office.webp) no-repeat center center local;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

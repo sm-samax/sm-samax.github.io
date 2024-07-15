@@ -179,6 +179,12 @@ h1, h2, h3 {
     background-color: var(--bright-color);
 }
 
+@media screen and (max-width: 600px) {
+    .action-btn {
+        width: 200px;
+    }
+}
+
 .action-btn:hover {
     background-color: var(--default-color);
 }
@@ -198,7 +204,9 @@ img.avatar {
 .contact-btn {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
+    width: 300px;
 }
 
 .contact-btn:hover {

@@ -23,50 +23,50 @@ I'm a software developer from Serbia, experienced in Scrum, and fluent in multip
 
 ## Skills
 
-### Programming languages:
+## 🖥️ Programming Languages
 
-- Java
-- PHP
-- Javascript / Typescript
-- Python
+- ☕ **Java**
+- 🐘 **PHP**
+- ⚡ **JavaScript / TypeScript**
+- 🐍 **Python**
 
-### Frameworks:
+## 🧩 Frameworks
 
-- Spring Boot
-- Angular
-- Laravel
-- CodeIgniter
-- TensorFlow
-- Nest JS
+- 🌱 **Spring Boot**
+- 🅰️ **Angular**
+- 🕊️ **Laravel**
+- ⚙️ **CodeIgniter**
+- 🧠 **TensorFlow**
+- 🧭 **NestJS**
 
-### Databases:
+## 🗄️ Databases
 
-- MySQL
-- PostgreSQL
-- Firebase
-- MongoDB
-- Redis
+- 🐬 **MySQL**
+- 🐘 **PostgreSQL**
+- 🔥 **Firebase**
+- 🍃 **MongoDB**
+- 🧱 **Redis**
 
-### Developer tools:
+## 🛠️ Developer Tools
 
-- Git
-- Docker
-- Linux
-- AWS
-- Bash / zsh
-- Postman
-- Pentaho Data Integration (ETL / ELT)
-- Playwright
+- 🧬 **Git**
+- 🐳 **Docker**
+- 🐧 **Linux**
+- ☁️ **AWS**
+- 💻 **Bash / Zsh**
+- 🧪 **Postman**
+- 🔄 **Pentaho Data Integration (ETL / ELT)**
+- 🎭 **Playwright**
 
-### PM / CRM:
+## 📋 Project Management / CRM
 
-- Jira
-- Notion
-- ClickUp
-- Hubspot
+- 🧠 **Jira**
+- 🗒️ **Notion**
+- ✅ **ClickUp**
+- 💼 **HubSpot**
 
-### Spoken languages:
+## 🌍 Spoken Languages
 
-- Hungarian
-- English
-- Serbian
+- 🇭🇺 **Hungarian**
+- 🇬🇧 **English**
+- 🇷🇸 **Serbian**

@@ -25,24 +25,46 @@ I'm a software developer from Serbia, experienced in Scrum, and fluent in multip
 
 ## 🖥️ Programming Languages
 
-<img src="https://cdn.simpleicons.org/java/007396" width="16"/> Java • <img src="https://cdn.simpleicons.org/php/777BB4" width="16"/> PHP • <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="16"/> JavaScript / <img src="https://cdn.simpleicons.org/typescript/3178C6" width="16"/> TypeScript • <img src="https://cdn.simpleicons.org/python/3776AB" width="16"/> Python
+- ☕ Java
+- <img src="https://cdn.simpleicons.org/php/777BB4" width="16"/> PHP
+- <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="16"/> JavaScript / <img src="https://cdn.simpleicons.org/typescript/3178C6" width="16"/> TypeScript
+- <img src="https://cdn.simpleicons.org/python/3776AB" width="16"/> Python
 
 ## 🧩 Frameworks
 
-<img src="https://cdn.simpleicons.org/springboot/6DB33F" width="16"/> Spring Boot • <img src="https://cdn.simpleicons.org/angular/DD0031" width="16"/> Angular • <img src="https://cdn.simpleicons.org/laravel/FF2D20" width="16"/> Laravel • <img src="https://cdn.simpleicons.org/codeigniter/EF4223" width="16"/> CodeIgniter • <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="16"/> TensorFlow • <img src="https://cdn.simpleicons.org/nestjs/E0234E" width="16"/> NestJS
+- <img src="https://cdn.simpleicons.org/springboot/6DB33F" width="16"/> Spring Boot
+- <img src="https://cdn.simpleicons.org/angular/DD0031" width="16"/> Angular
+- <img src="https://cdn.simpleicons.org/laravel/FF2D20" width="16"/> Laravel
+- <img src="https://cdn.simpleicons.org/codeigniter/EF4223" width="16"/> CodeIgniter
+- <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="16"/> TensorFlow
+- <img src="https://cdn.simpleicons.org/nestjs/E0234E" width="16"/> NestJS
 
 ## 🗄️ Databases
 
-<img src="https://cdn.simpleicons.org/mysql/4479A1" width="16"/> MySQL • <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="16"/> PostgreSQL • <img src="https://cdn.simpleicons.org/firebase/FFCA28" width="16"/> Firebase • <img src="https://cdn.simpleicons.org/mongodb/47A248" width="16"/> MongoDB • <img src="https://cdn.simpleicons.org/redis/DC382D" width="16"/> Redis
+- <img src="https://cdn.simpleicons.org/mysql/4479A1" width="16"/> MySQL
+- <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="16"/> PostgreSQL
+- <img src="https://cdn.simpleicons.org/firebase/FFCA28" width="16"/> Firebase
+- <img src="https://cdn.simpleicons.org/mongodb/47A248" width="16"/> MongoDB
+- <img src="https://cdn.simpleicons.org/redis/DC382D" width="16"/> Redis
 
 ## 🛠️ Developer Tools
 
-<img src="https://cdn.simpleicons.org/git/F05032" width="16"/> Git • <img src="https://cdn.simpleicons.org/docker/2496ED" width="16"/> Docker • <img src="https://cdn.simpleicons.org/linux/FCC624" width="16"/> Linux • ☁️ AWS • 💻 Bash / Zsh • <img src="https://cdn.simpleicons.org/postman/FF6C37" width="16"/> Postman • 🔄 Pentaho Data Integration (ETL / ELT) • 🎭 Playwright
+- <img src="https://cdn.simpleicons.org/git/F05032" width="16"/> Git
+- <img src="https://cdn.simpleicons.org/docker/2496ED" width="16"/> Docker
+- <img src="https://cdn.simpleicons.org/linux/FCC624" width="16"/> Linux
+- ☁️ AWS
+- 💻 Bash / Zsh
+- <img src="https://cdn.simpleicons.org/postman/FF6C37" width="16"/> Postman
+- 🔄 Pentaho Data Integration (ETL / ELT)
+- 🎭 Playwright
 
 ## 📋 Project Management / CRM
 
-<img src="https://cdn.simpleicons.org/jira/0052CC" width="16"/> Jira • <img src="https://cdn.simpleicons.org/notion/000000" width="16"/> Notion • <img src="https://cdn.simpleicons.org/clickup/7B68EE" width="16"/> ClickUp • <img src="https://cdn.simpleicons.org/hubspot/FF7A59" width="16"/> HubSpot
+- <img src="https://cdn.simpleicons.org/jira/0052CC" width="16"/> Jira
+- <img src="https://cdn.simpleicons.org/notion/000000" width="16"/> Notion
+- <img src="https://cdn.simpleicons.org/clickup/7B68EE" width="16"/> ClickUp
+- <img src="https://cdn.simpleicons.org/hubspot/FF7A59" width="16"/> HubSpot
 
 ## 🌍 Spoken Languages
 
-🇭🇺 Hungarian • 🇬🇧 English • 🇷🇸 Serbian
+🇭🇺 Hungarian | 🇬🇧 English | 🇷🇸 Serbian

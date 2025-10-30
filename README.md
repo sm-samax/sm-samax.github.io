@@ -21,13 +21,22 @@ I'm a software developer from Serbia, experienced in Scrum, and fluent in multip
 - [E-portal](https://eportal.pmf.uns.ac.rs/) - project at Faculty of Sciences, Novi Sad
 - [e-TervPálya](https://www.oeny.hu/oeny/tpalya/) - project at JUSOFT Hungary Ltd.
 
-## 🧠 Skills
+## 🤝 Soft Skills
+
+- 💬 Communication
+- ⏰ Time Management
+- 🧩 Problem-Solving
+- 👥 Team Work
+- 🌱 Adaptability
+- 🔍 Critical thinking
+
+## 🧠 Hard Skills
 
 ### 🖥️ Programming Languages
 
 ☕ Java | <img src="https://cdn.simpleicons.org/php/777BB4" width="16"/> PHP | <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="16"/> JavaScript / <img src="https://cdn.simpleicons.org/typescript/3178C6" width="16"/> TypeScript | <img src="https://cdn.simpleicons.org/python/3776AB" width="16"/> Python
 
-### 🧩 Frameworks
+### 🏗️ Frameworks
 
 <img src="https://cdn.simpleicons.org/springboot/6DB33F" width="16"/> Spring Boot | <img src="https://cdn.simpleicons.org/angular/DD0031" width="16"/> Angular | <img src="https://cdn.simpleicons.org/laravel/FF2D20" width="16"/> Laravel | <img src="https://cdn.simpleicons.org/codeigniter/EF4223" width="16"/> CodeIgniter | <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="16"/> TensorFlow | <img src="https://cdn.simpleicons.org/nestjs/E0234E" width="16"/> NestJS
 

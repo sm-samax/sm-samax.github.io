@@ -54,6 +54,7 @@ I'm a software developer from Serbia, experienced in Scrum, and fluent in multip
 - <img src="https://cdn.simpleicons.org/postman/FF6C37" width="16"/> Postman
 - 🔄 Pentaho Data Integration (ETL / ELT)
 - 🎭 Playwright
+- <img src="https://cdn.simpleicons.org/opensearch/005EB8" width="16"/> Opensearch
 
 ### 📋 Project Management / CRM
 

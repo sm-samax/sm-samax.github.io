@@ -1,65 +1,53 @@
 # Mészáros Sámuel
 
-I'm a software developer from Serbia, experienced in Scrum, and fluent in multiple languages. As a developer I worked on entire stack of technologies, as well as taken on various responsibilities on management field. Ensuring a great end-user experience is, in my opinion, the most important aspect of developing a product.
+I am Sámuel Mészáros, a <strong>full-stack developer</strong> from Serbia. My domain expertise spans hospitality, tender management, and higher education administration sectors. For more detailed insights, please visit my [website](https://sm-samax.github.io) where all my featured work is described.
 
 ## 📫 Contact
 
-- ✉️ [Email](mailto:meszaros.samuel.official@gmail.com)
+- ✉️ [Email](mailto:samuel.meszaros01@gmail.com)
 - 👔 [LinkedIn](https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/)
+- 🌐 [Website](https://sm-samax.github.io)
+- 💻 [<strong>GitHub</strong>](https://github.com/sm-samax)
 
-## 💼 Work and experience
+## 💼 Work Experience
 
-- 2024-present - [Zensoft Ltd.](https://www.linkedin.com/company/zensoft-ltd) as PHP Developer
-- 2023-2024 - [Faculty of Sciences](https://www.linkedin.com/school/university-of-novi-sad-faculty-of-sciences), Novi Sad as Java developer
-- 2022-2023 - [JUSOFT Hungary Ltd.](https://www.linkedin.com/company/jusoft-hungary-ltd.) as Java developer
-- 2018-2022 - Computer service freelancer
+- <strong>2024–Present</strong> - SabeeApp Ltd. - <strong>PHP Developer</strong>
+- <strong>2023–2024</strong> - Faculty of Sciences, University of Novi Sad - <strong>Java Developer</strong>
+- <strong>2022–2023</strong> - JUSOFT Hungary Ltd. - <strong>Java Developer</strong>
+- <strong>2018–2022</strong> - Freelance - <strong>Software Support</strong>
 
-## 🚀 Projects and contributions
+## 🧠 Skills
 
-- [Sabeeapp](https://www.sabeeapp.com/) - project at Zensoft Ltd. Senta
-- [Minthaka](https://minthaka.com) - personal tech blog
-- [E-portal](https://eportal.pmf.uns.ac.rs/) - project at Faculty of Sciences, Novi Sad
-- [e-TervPálya](https://www.oeny.hu/oeny/tpalya/) - project at JUSOFT Hungary Ltd.
+### 💻 Software Development
 
-## 🤝 Soft Skills
+Experienced in <strong>Agile</strong> (<strong>Scrum</strong>) environments. I build and maintain products using frameworks like <strong>Spring Boot</strong>, <strong>Laravel</strong>, <strong>Angular</strong>, and <strong>CodeIgniter</strong>, alongside core languages including <strong>Java</strong>, <strong>PHP</strong>, <strong>JavaScript</strong>, and <strong>Python</strong>. Additionally, I possess advanced proficiency in <strong>Git</strong>, <strong>GitHub</strong>, and <strong>GitLab</strong>.
 
-- 💬 Communication
-- ⏰ Time Management
-- 🧩 Problem-Solving
-- 👥 Team Work
-- 🌱 Adaptability
-- 🔍 Critical thinking
+### 📊 Data Science
 
-## 🧠 Hard Skills
+Hands-on experience with several databases, including <strong>MySQL</strong>, <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, <strong>Firebase</strong>, and <strong>Redis</strong>. Adept at optimizing queries, designing efficient <strong>ETL/ELT</strong> strategies, and developing complex reports utilizing <strong>Pentaho Data Integration</strong> and <strong>Power BI</strong>.
 
-### 🖥️ Programming Languages
+### ⚙️ Developer Operations
 
-☕ Java | <img src="https://cdn.simpleicons.org/php/777BB4" width="16"/> PHP | <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="16"/> JavaScript / <img src="https://cdn.simpleicons.org/typescript/3178C6" width="16"/> TypeScript | <img src="https://cdn.simpleicons.org/python/3776AB" width="16"/> Python
+I use <strong>AWS</strong> and <strong>Docker</strong> daily for <strong>continuous deployment</strong> (<strong>CD</strong>), alongside <strong>Jenkins</strong> and <strong>GitHub Actions</strong> for <strong>continuous integration</strong> (<strong>CI</strong>). I possess user-level experience with <strong>Kubernetes</strong>. Additionally, I manage my own domain, can configure web servers (<strong>Nginx</strong>, <strong>Apache</strong>), and operate multiple CMS platforms, including <strong>WordPress</strong> and <strong>Ghost</strong>.
 
-### 🏗️ Frameworks
+### ✅ Quality Assurance
 
-<img src="https://cdn.simpleicons.org/springboot/6DB33F" width="16"/> Spring Boot | <img src="https://cdn.simpleicons.org/angular/DD0031" width="16"/> Angular | <img src="https://cdn.simpleicons.org/laravel/FF2D20" width="16"/> Laravel | <img src="https://cdn.simpleicons.org/codeigniter/EF4223" width="16"/> CodeIgniter | <img src="https://cdn.simpleicons.org/tensorflow/FF6F00" width="16"/> TensorFlow | <img src="https://cdn.simpleicons.org/nestjs/E0234E" width="16"/> NestJS
+I document and cover newly written code with unit tests (<strong>XUnit</strong>) and integration tests (<strong>Postman</strong>). Additionally, I design automated end-to-end tests using <strong>Playwright</strong> and write custom <strong>automation scripts</strong> in <strong>Bash</strong> and <strong>Zsh</strong>. I am also well-versed in linting and code quality tools such as <strong>SonarQube</strong> and <strong>ESLint</strong>.
 
-### 🗄️ Databases
+### 🤖 Artificial Intelligence
 
-<img src="https://cdn.simpleicons.org/mysql/4479A1" width="16"/> MySQL | <img src="https://cdn.simpleicons.org/postgresql/4169E1" width="16"/> PostgreSQL | <img src="https://cdn.simpleicons.org/firebase/FFCA28" width="16"/> Firebase | <img src="https://cdn.simpleicons.org/mongodb/47A248" width="16"/> MongoDB | <img src="https://cdn.simpleicons.org/redis/DC382D" width="16"/> Redis
+I maximize development productivity using third-party <strong>LLMs</strong> (<strong>ChatGPT</strong>, <strong>Gemini</strong>, <strong>Claude</strong>) while possessing technical experience training AI models using <strong>TensorFlow</strong>.
 
-### 🛠️ Developer Tools
+### 🔎 L3 Support
 
-- <img src="https://cdn.simpleicons.org/git/F05032" width="16"/> Git
-- <img src="https://cdn.simpleicons.org/docker/2496ED" width="16"/> Docker
-- <img src="https://cdn.simpleicons.org/linux/FCC624" width="16"/> Linux
-- ☁️ AWS
-- 💻 Bash / Zsh
-- <img src="https://cdn.simpleicons.org/postman/FF6C37" width="16"/> Postman
-- 🔄 Pentaho Data Integration (ETL / ELT)
-- 🎭 Playwright
-- <img src="https://cdn.simpleicons.org/opensearch/005EB8" width="16"/> Opensearch
+I investigate root causes by reproducing issues, debugging code, analyzing logs/databases via <strong>OpenSearch</strong> and <strong>Grafana</strong>, and monitoring system stats. Throughout the process, I keep clients updated directly via email or CRM tools like <strong>HubSpot</strong>, <strong>Discord</strong>, and <strong>Orbit</strong>.
 
-### 📋 Project Management / CRM
+### 🌍 Multilingual
 
-<img src="https://cdn.simpleicons.org/jira/0052CC" width="16"/> Jira | <img src="https://cdn.simpleicons.org/notion/000000" width="16"/> Notion | <img src="https://cdn.simpleicons.org/clickup/7B68EE" width="16"/> ClickUp | <img src="https://cdn.simpleicons.org/hubspot/FF7A59" width="16"/> HubSpot
+Native proficiency in <strong>Hungarian</strong>, with professional fluency in both <strong>Serbian</strong> and <strong>English</strong>, the latter refined through extensive experience collaborating with international teams.
 
-### 🌍 Spoken Languages
+## 🎓 Education
 
-🇭🇺 Hungarian | 🇬🇧 English | 🇷🇸 Serbian
+- 2020–2024 - Faculty of Sciences, University of Novi Sad - <strong>Information Technology</strong> - Bachelor's Degree
+- Dec 20, 2023 - Student Dormitory Europa - Certified Professional: Tender writer
+- July 20, 2021 - Oracle University - Certified Professional: <strong>Java SE 11 Developer</strong>

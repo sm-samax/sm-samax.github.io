@@ -48,6 +48,6 @@ Native proficiency in <strong>Hungarian</strong>, with professional fluency in b
 
 ## 🎓 Education
 
-- 2020–2024 - Faculty of Sciences, University of Novi Sad - <strong>Information Technology</strong> - Bachelor's Degree
-- Dec 20, 2023 - Student Dormitory Europa - Certified Professional: Tender writer
-- July 20, 2021 - Oracle University - Certified Professional: <strong>Java SE 11 Developer</strong>
+- <strong>2020–2024</strong> - Faculty of Sciences, University of Novi Sad - <strong>Information Technology - Bachelor's Degree</strong>
+- <strong>Dec 20, 2023</strong> - Student Dormitory Europa - Certified Professional: <strong>Tender writer</strong>
+- <strong>July 20, 2021</strong> - Oracle University - Certified Professional: <strong>Java Developer</strong>

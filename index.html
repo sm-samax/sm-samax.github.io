@@ -50,6 +50,41 @@
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
+    <style>
+      .intro-actions {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 0 0 2em 0;
+      }
+
+      .intro-actions .button,
+      .intro-actions .icons {
+        margin: 0;
+      }
+
+      .intro-actions .icons {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+      }
+
+      .intro-actions .icons li {
+        padding: 0;
+      }
+
+      @media screen and (max-width: 480px) {
+        .intro-actions .button,
+        .intro-actions .icons {
+          width: 100%;
+        }
+
+        .intro-actions .icons {
+          justify-content: center;
+        }
+      }
+    </style>
     <script>
       var _paq = (window._paq = window._paq || []);
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -93,7 +128,7 @@
         <h2>Menu</h2>
         <ul>
           <li><a href="https://minthaka.com">Blogs</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#about">Introduction</a></li>
           <li><a href="#work">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -122,11 +157,34 @@
             communication is the most critical skill of all. Feel free to reach
             out to me.
           </p>
-          <a href="#contact" class="button primary icon solid fa-envelope"
-            >Contact</a
-          >
-          <br />
-          <br />
+          <div class="intro-actions">
+            <a href="#contact" class="button primary icon solid fa-envelope"
+              >Contact</a
+            >
+            <ul class="icons">
+              <li>
+                <a
+                  href="https://twitter.com/sm_samax"
+                  class="icon brands style2 fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/s%C3%A1muel-m%C3%A9sz%C3%A1ros-54150821a/"
+                  class="icon brands style2 fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/sm-samax"
+                  class="icon brands style2 fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </div>
           <h2 id="work">
             <span class="icon solid fa-code"></span> Work and experience
           </h2>
@@ -310,6 +368,13 @@
             <ul class="icons" style="display: flex; justify-content: center">
               <li>
                 <a
+                  href="mailto:samuel.meszaros01@gmail.com"
+                  class="icon solid style2 fa-envelope"
+                  ><span class="label">Email</span></a
+                >
+              </li>
+              <li>
+                <a
                   href="https://twitter.com/sm_samax"
                   class="icon brands style2 fa-twitter"
                   ><span class="label">Twitter</span></a
@@ -327,13 +392,6 @@
                   href="https://github.com/sm-samax"
                   class="icon brands style2 fa-github"
                   ><span class="label">GitHub</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="mailto:samuel.meszaros01@gmail.com"
-                  class="icon solid style2 fa-envelope"
-                  ><span class="label">Email</span></a
                 >
               </li>
             </ul>
